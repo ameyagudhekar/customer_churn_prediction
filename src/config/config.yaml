@@ -59,3 +59,13 @@ evaluation:
     - recall
     - f1
     - roc_auc
+
+
+data:
+  input_path: "data.csv"
+  timestamp_column: "timestamp"
+
+time_filter:
+  enabled: true
+  start_time: "2025-01-01 00:00:00"
+  end_time: "2025-01-31 23:59:59"
