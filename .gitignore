@@ -4,10 +4,7 @@ __pycache__/
 .env
 venv/
 
-data/raw/*
-data/processed/*
-!data/raw/.keep
-!data/processed/.keep
+data/
 
 model_registry/
 
